@@ -1,5 +1,9 @@
 {
+  "clangd.arguments": [
+    "--query-driver=/opt/homebrew/bin/g++-14"
+  ],
   "clangd.checkUpdates": true,
+  "cmake.copyCompileCommands": "${workspaceFolder}/compile_commands.json",
   "editor.codeActionsOnSave": {
     "source.fixAll": "explicit",
     "source.organizeImports": "explicit"

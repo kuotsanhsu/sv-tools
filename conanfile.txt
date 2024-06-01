@@ -1,0 +1,11 @@
+# https://conan.io/center/recipes/doctest?version=2.4.11
+
+[requires]
+doctest/2.4.11
+
+[generators]
+CMakeDeps
+CMakeToolchain
+
+[layout]
+cmake_layout
