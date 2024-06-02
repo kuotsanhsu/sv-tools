@@ -1,0 +1,4 @@
+# https://github.com/envoyproxy/envoy/blob/main/.bazelrc
+build --repo_env=BAZEL_USE_CPP_ONLY_TOOLCHAIN=1
+build --action_env=CC="gcc-14"
+build --cxxopt="-std=c++23"
